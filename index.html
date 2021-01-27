@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Font/Icon-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <title>Calculadora IMC</title>
+</head>
+<body>
+    <header>
+        <div id="container-header">
+            <h1>Calculadora IMC</h1>
+        </div>
+    </header>
+    <main>
+        <div id="container">
+            <div class="calculator">
+                <div>
+                    <label for="sexo">Sexo:</label>
+                    <select id="sexo">
+                        <option value="male">Masculino</option>
+                        <option value="female">Feminino</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="idade">Idade:</label>
+                    <input id="idade" type="number" placeholder="23">
+                </div>
+                <div>
+                    <label for="altura">Altura:</label>
+                    <input id="altura" type="number" placeholder="1.68">
+                </div>
+                <div>
+                    <label for="peso">Peso:</label>
+                    <input id="peso" type="number" placeholder="75.68">
+                </div>
+                <div class="button-calc">
+                    <button>Calcular</button>
+                </div>
+                <h1></h1>
+                <h2></h2>
+                <button class="d-none">Tentar Novamente</button>
+            </div>
+        </div>
+        <div id="container-table">
+            <div id="table">
+                <table>
+                    <tr>
+                        <th>Status</th>
+                        <th>IMC</th>
+                        <th>PESO</th>
+                    </tr>
+                    <tr>
+                        <td>Magreza</td>
+                        <td> <17.5 </td>
+                        <td> <51.2kg </td>
+                    </tr>
+                    <tr>
+                        <td>Normal</td>
+                        <td> 17.5 a 25 </td>
+                        <td> 51.2 a 73.1 Kg </td>
+                    </tr>
+                    <tr>
+                        <td>Sobrepeso</td>
+                        <td> 25 a 28.6 </td>
+                        <td> 73.1 a 83.6 Kg </td>
+                    </tr>
+                    <tr>
+                        <td>Obesidade</td>
+                        <td> > 28.6</td>
+                        <td> >83.6kg </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+   </main>
+<!--JS-->
+<script src="js/script.js"></script>
+</body>
+</html>
