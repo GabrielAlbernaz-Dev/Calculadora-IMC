@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg:#F2D857;
+    --bg-calculator:#2B558C;
+    --bg-button:#F24987;
+    --color-label:#F29B30;
+    --color:#fff
+}
+
+body {
+    background:var(--bg);
+    font-family: 'Yusei Magic',cursive,sans-serif;
+}
+
+.d-none {
+    display:none;
+}
+
+.d-block {
+    display: block;
+}
+
+/* HEADER */
+header #container-header {
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+header #container-header h1 {
+    font-size: 3em;
+}
+
+/* Content */
+#container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-table {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator {
+    background: var(--bg-calculator);
+    min-height:30vh;
+    margin-top: 3%;
+    width: 35vw;
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 3px 3px 3px 3px #193252
+}
+
+.calculator label {
+    display: block;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: var(--color-label);
+    margin-top: 1%;
+}
+
+.calculator select {
+    width: 100%;
+    padding: 3%;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.calculator input {
+    width: 100%;
+    padding: 2.5%;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.calculator .button-calc {
+    display:flex;
+    justify-content: center;
+}
+
+.calculator h1 {
+    margin-top: 1%;
+    text-align: center;
+    color: var(--color);
+}
+
+.calculator button {
+    border: none;
+    border-radius: 5px;
+    background: var(--bg-button);
+    font-size: 1.2em;
+    font-family: "Yusei Magic",cursive;
+    margin-top: 5%;
+    padding: 2.5%;
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px #631e37
+}
+
+.calculator  button:hover {
+    background: #96244e;
+    color: var(--color);
+}
+
+/*Tabela*/
+#table {
+    background: var(--bg-calculator);
+    width: 35vw;
+    padding: 1% 4%;
+    box-shadow: 3px 3px 3px 3px #193252;
+    margin: 3% 0;
+}
+
+#table th {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: var(--color-label);
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+#table td {
+    border-right: 3px solid var(--color-label);
+    padding: 4%;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+
+
