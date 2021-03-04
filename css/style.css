@@ -142,5 +142,20 @@ header #container-header h1 {
     }
 }
 
+@media (max-width:400px) {
+    #container,
+    #container-table {
+        width: 100vw;
+    }
+
+    .calculator {
+        width:100vw;
+    }
+
+    #table {
+        width: 100vw;
+    }
+}
+
 
 
