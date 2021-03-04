@@ -116,7 +116,7 @@ header #container-header h1 {
 #table {
     background: var(--bg-calculator);
     width: 35vw;
-    padding: 1% 4%;
+    padding: 1% 5%;
     box-shadow: 3px 3px 3px 3px #193252;
     margin: 3% 0;
 }
@@ -149,10 +149,19 @@ header #container-header h1 {
     }
 
     .calculator {
-        width:100vw;
+        display: flex;
+        justify-content: center;
+        width:90vw;
+        font-size: 0.8em;
+    }
+
+    .calculator input {
+        padding: 1.5%%;
     }
 
     #table {
+        display: flex;
+        justify-content: center;
         width: 100vw;
     }
 }
