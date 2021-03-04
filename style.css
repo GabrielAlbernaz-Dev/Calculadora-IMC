@@ -142,7 +142,7 @@ header #container-header h1 {
     }
 }
 
-@media (max-width:670px) {
+@media (max-width:400px) {
     #container,
     #container-table {
         width: 100vw;
@@ -156,6 +156,10 @@ header #container-header h1 {
         width: 100vw;
     }
 }
+
+
+
+
 
 
 
